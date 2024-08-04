@@ -2,9 +2,9 @@
 
 A light colorscheme for Vim/NVIM.
 
-![OneLeaf NVIM](https://raw.githubusercontent.com/jasen215/oneleaf/master/images/oneleaf.nvim.png)
+![OneLeaf NVIM](https://github.com/jasen215/oneleaf.vim/raw/main/oneleaf.nvim.png)
 
-![OneLeaf VIM](https://raw.githubusercontent.com/jasen215/oneleaf/master/images/oneleaf.vim.png)
+![OneLeaf VIM](https://github.com/jasen215/oneleaf.vim/raw/main/oneleaf.nvim.png)
 
 ## Features
 
@@ -21,8 +21,6 @@ Install manually or use a package manager:
 ```viml
 " vim-plug
 Plug 'jasen215/oneleaf.vim'
-" NeoBundle
-NeoBundle 'jasen215/oneleaf.vim'
 " Vundle
 Plugin 'jasen215/oneleaf.vim'
 " Lazy
