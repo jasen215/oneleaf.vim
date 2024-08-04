@@ -2,7 +2,7 @@
 
 A light colorscheme for Vim/NVIM.
 
-![OneLeaf NVIM](https://github.com/jasen215/oneleaf.vim/raw/main/oneleaf.nvim.png)
+![OneLeaf NVIM](oneleaf.nvim.png)
 
 ![OneLeaf VIM](https://github.com/jasen215/oneleaf.vim/raw/main/oneleaf.vim.png)
 
