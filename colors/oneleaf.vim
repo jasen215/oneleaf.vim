@@ -332,6 +332,8 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 
     " indent-blankline.
     call <SID>X("IblIndent", "e0e0e0", "", "")
+    call <SID>X("NormalFloat", "", "ffffff", "")
+    call <SID>X("FloatBorder", "", "ffffff", "")
     " redir END
 
     " delete functions {{{:
