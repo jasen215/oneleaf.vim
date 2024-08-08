@@ -253,7 +253,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     call <SID>X("IncSearch", "708090", "f0e68c", "")
     call <SID>X("Pmenu", "ffffff", "cb2f27", "")
     call <SID>X("SignColumn", "", "", "")
-    call <SID>X("CursorLine", "", "f0f0f0", "")
+    call <SID>X("CursorLine", "", "d7ffff", "")
     call <SID>X("LineNr", "e1d5c0", "ffffff", "")
     call <SID>X("MatchParen", "", "", "")
 
@@ -311,16 +311,19 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     call <SID>X("jinjaAttribute", "dd7700", "fbf4c7", "")
     call <SID>X("jinjaSpecial", "008ffd", "fbf4c7", "")
 
-    call <SID>X("NormalFloat", "000000", "f0f0f0", "")
-    call <SID>X("FloatBorder", "000000", "f0f0f0", "")
-    call <SID>X("FloatTitle", "000000", "e0e0e0", "")
 
     call <SID>X("Pmenu", "000000", "f0f0f0", "")
 
-    call <SID>X("NvimTreeFolderIcon", "808080", "ffffff", "")
-    call <SID>X("NvimTreeFileIcon", "808080", "ffffff", "")
 
     if has('nvim')
+        " Float window
+        call <SID>X("NormalFloat", "000000", "dadada", "")
+        call <SID>X("FloatBorder", "000000", "dadada", "")
+        " Nvim Tree
+        call <SID>X("NvimTreeFolderIcon", "808080", "ffffff", "")
+        call <SID>X("NvimTreeFileIcon", "808080", "ffffff", "")
+        call <SID>X("FloatTitle", "000000", "e0e0e0", "")
+        " Diagnostic
 		call <SID>X("DiagnosticError", "000000", "ffcc99", "")
         call <SID>X("DiagnosticWarn", "000000", "cccc99", "")
         call <SID>X("DiagnosticInfo", "000000", "99ffff", "")
@@ -328,12 +331,14 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
         call <SID>X("DiagnosticOk", "000000", "ccff99", "")
     	call <SID>X("DiagnosticDeprecated", "000000", "c5def5", "")
     	call <SID>X("DiagnosticUnnecessary", "000000", "6c757d", "")
+        " Lazy
+        
+    	call <SID>X("LazyButton", "", "eeeeee", "")
+    	call <SID>X("LazyNormal", "", "dadada", "")
     endif
 
     " indent-blankline.
     call <SID>X("IblIndent", "e0e0e0", "", "")
-    call <SID>X("NormalFloat", "", "ffffff", "")
-    call <SID>X("FloatBorder", "", "ffffff", "")
     " redir END
 
     " delete functions {{{:
