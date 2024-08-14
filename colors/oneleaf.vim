@@ -313,10 +313,11 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     call <SID>X("jinjaSpecial", "008ffd", "fbf4c7", "")
 
 
-    call <SID>X("Pmenu", "000000", "f0f0f0", "")
+    " call <SID>X("Pmenu", "000000", "f0f0f0", "")
+    call <SID>X("Pmenu", "eeeeee", "4e4e4e", "")
+    call <SID>X("PmenuSel", "585858", "eeeeee", "")
     call <SID>X("PmenuSbar", "", "d0d0d0", "")
     call <SID>X("PmenuThumb", "", "00afff", "")
-
 
     if has('nvim')
         " Float window
